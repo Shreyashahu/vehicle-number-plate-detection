@@ -17,16 +17,16 @@ This project aims to detect and recognize vehicle number plates in a video strea
 
 3. Compile the code using a C++ compiler. For example, using g++ on Linux:
    ```bash
-   g++ -o project1 project1.cpp `pkg-config --cflags --libs opencv4`
+   g++ -o Project1 Project1.cpp `pkg-config --cflags --libs opencv4`
    ```
 
 ## Usage
 
-1. Place your video file (`Video-Sample.mp4`) in the same directory as the compiled executable (`project1`).
+1. Place your video file (`Video-Sample.mp4`) in the same directory as the compiled executable (`Project1`).
 
 2. Run the executable:
    ```bash
-   ./project1
+   ./Project1
    ```
 
 3. The program will display the video stream with rectangles drawn around detected license plates. Press `ESC` to exit the program.
